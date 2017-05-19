@@ -149,6 +149,8 @@ class QMGameViewController: UIViewController {
             NextQuestionImage.isHidden = false
             nextQuestion.isHidden = false
             resultLabel.text = "You Win!"
+            scoremath = 0
+            score.text = "\(scoremath)"
             nextQuestion.setTitle("Play Again", for: UIControlState())
         }
         timer.invalidate()

@@ -444,7 +444,7 @@ class MQGameViewController: UIViewController {
         ScoreLabel.text = "Score:\(score)"
     }
     
-    //Touch reset button the reset function will be run.
+    //Touch reset button the reset function will be run.      
     @IBAction func reset(_ sender: UIButton) {
         reset()
     }

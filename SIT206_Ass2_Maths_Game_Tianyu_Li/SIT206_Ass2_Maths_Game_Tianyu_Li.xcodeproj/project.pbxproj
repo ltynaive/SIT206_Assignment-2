@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0915438B1ECC20400011EC26 /* MQScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915438A1ECC20400011EC26 /* MQScoreViewController.swift */; };
 		091E24711EC9E1BD008E7697 /* QMOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E24701EC9E1BD008E7697 /* QMOptionViewController.swift */; };
 		091E24731EC9F267008E7697 /* QMHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E24721EC9F267008E7697 /* QMHelpViewController.swift */; };
 		091E24751ECA0BAD008E7697 /* QMGameBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 091E24741ECA0BAD008E7697 /* QMGameBGM.mp3 */; };
@@ -25,7 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0915438A1ECC20400011EC26 /* MQScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQScoreViewController.swift; sourceTree = "<group>"; };
 		091E24701EC9E1BD008E7697 /* QMOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QMOptionViewController.swift; sourceTree = "<group>"; };
 		091E24721EC9F267008E7697 /* QMHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QMHelpViewController.swift; sourceTree = "<group>"; };
 		091E24741ECA0BAD008E7697 /* QMGameBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = QMGameBGM.mp3; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				095874E01ECD2124004316EF /* MQHelpViewController.swift */,
-				0915438A1ECC20400011EC26 /* MQScoreViewController.swift */,
 				091E53F91ECAD4710054D446 /* MQGameViewController.swift */,
 				091E24721EC9F267008E7697 /* QMHelpViewController.swift */,
 				091E24701EC9E1BD008E7697 /* QMOptionViewController.swift */,
@@ -172,7 +169,6 @@
 				095874E11ECD2124004316EF /* MQHelpViewController.swift in Sources */,
 				091E24711EC9E1BD008E7697 /* QMOptionViewController.swift in Sources */,
 				09F4930F1EB25E230087E31B /* ViewController.swift in Sources */,
-				0915438B1ECC20400011EC26 /* MQScoreViewController.swift in Sources */,
 				09DDE5AA1EC32592005509F4 /* QuickMathsViewController.swift in Sources */,
 				091E53FA1ECAD4710054D446 /* MQGameViewController.swift in Sources */,
 				09F4930D1EB25E230087E31B /* AppDelegate.swift in Sources */,

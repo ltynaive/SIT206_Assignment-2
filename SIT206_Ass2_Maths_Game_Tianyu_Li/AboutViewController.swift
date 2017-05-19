@@ -31,7 +31,7 @@ class AboutViewController: UIViewController {
         let alertController = UIAlertController(title:"Alert", message: "Do you want to open Youtube website?", preferredStyle: .actionSheet)
         
         let yesAction = UIAlertAction(title: "Yes", style:.default) {
-            (action) -> Void in UIApplication.shared.open(URL(string: "https://github.com/ltynaive/SIT206_Assignment-2")!, options: [:], completionHandler: nil)}
+            (action) -> Void in UIApplication.shared.open(URL(string: "https://youtu.be/l2eMAdm0ibM")!, options: [:], completionHandler: nil)}
         
         let noAction = UIAlertAction(title: "No", style:.default, handler: nil)
         

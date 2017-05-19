@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0915438B1ECC20400011EC26 /* MQScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0915438A1ECC20400011EC26 /* MQScoreViewController.swift */; };
+		091E24711EC9E1BD008E7697 /* QMOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E24701EC9E1BD008E7697 /* QMOptionViewController.swift */; };
+		091E24731EC9F267008E7697 /* QMHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E24721EC9F267008E7697 /* QMHelpViewController.swift */; };
+		091E24751ECA0BAD008E7697 /* QMGameBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 091E24741ECA0BAD008E7697 /* QMGameBGM.mp3 */; };
+		091E53FA1ECAD4710054D446 /* MQGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E53F91ECAD4710054D446 /* MQGameViewController.swift */; };
+		091E53FC1ECAE2A10054D446 /* MQGameBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 091E53FB1ECAE2A10054D446 /* MQGameBGM.mp3 */; };
+		095874E11ECD2124004316EF /* MQHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095874E01ECD2124004316EF /* MQHelpViewController.swift */; };
+		09DDE5A81EC2FA95005509F4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE5A71EC2FA95005509F4 /* AboutViewController.swift */; };
+		09DDE5AA1EC32592005509F4 /* QuickMathsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE5A91EC32592005509F4 /* QuickMathsViewController.swift */; };
+		09DDE5AC1EC342CE005509F4 /* QMGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE5AB1EC342CE005509F4 /* QMGameViewController.swift */; };
 		09F4930D1EB25E230087E31B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F4930C1EB25E230087E31B /* AppDelegate.swift */; };
 		09F4930F1EB25E230087E31B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F4930E1EB25E230087E31B /* ViewController.swift */; };
 		09F493121EB25E230087E31B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F493101EB25E230087E31B /* Main.storyboard */; };
@@ -15,6 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0915438A1ECC20400011EC26 /* MQScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQScoreViewController.swift; sourceTree = "<group>"; };
+		091E24701EC9E1BD008E7697 /* QMOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QMOptionViewController.swift; sourceTree = "<group>"; };
+		091E24721EC9F267008E7697 /* QMHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QMHelpViewController.swift; sourceTree = "<group>"; };
+		091E24741ECA0BAD008E7697 /* QMGameBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = QMGameBGM.mp3; sourceTree = "<group>"; };
+		091E53F91ECAD4710054D446 /* MQGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQGameViewController.swift; sourceTree = "<group>"; };
+		091E53FB1ECAE2A10054D446 /* MQGameBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MQGameBGM.mp3; sourceTree = "<group>"; };
+		095874E01ECD2124004316EF /* MQHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQHelpViewController.swift; sourceTree = "<group>"; };
+		09DDE5A71EC2FA95005509F4 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		09DDE5A91EC32592005509F4 /* QuickMathsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickMathsViewController.swift; sourceTree = "<group>"; };
+		09DDE5AB1EC342CE005509F4 /* QMGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QMGameViewController.swift; sourceTree = "<group>"; };
 		09F493091EB25E230087E31B /* SIT206_Ass2_Maths_Game_Tianyu_Li.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIT206_Ass2_Maths_Game_Tianyu_Li.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F4930C1EB25E230087E31B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09F4930E1EB25E230087E31B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,8 +58,18 @@
 		09F493001EB25E230087E31B = {
 			isa = PBXGroup;
 			children = (
+				095874E01ECD2124004316EF /* MQHelpViewController.swift */,
+				0915438A1ECC20400011EC26 /* MQScoreViewController.swift */,
+				091E53F91ECAD4710054D446 /* MQGameViewController.swift */,
+				091E24721EC9F267008E7697 /* QMHelpViewController.swift */,
+				091E24701EC9E1BD008E7697 /* QMOptionViewController.swift */,
+				09DDE5AB1EC342CE005509F4 /* QMGameViewController.swift */,
+				09DDE5A91EC32592005509F4 /* QuickMathsViewController.swift */,
+				09DDE5A71EC2FA95005509F4 /* AboutViewController.swift */,
 				09F4930B1EB25E230087E31B /* SIT206_Ass2_Maths_Game_Tianyu_Li */,
 				09F4930A1EB25E230087E31B /* Products */,
+				091E24741ECA0BAD008E7697 /* QMGameBGM.mp3 */,
+				091E53FB1ECAE2A10054D446 /* MQGameBGM.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,8 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F493171EB25E230087E31B /* LaunchScreen.storyboard in Resources */,
+				091E24751ECA0BAD008E7697 /* QMGameBGM.mp3 in Resources */,
 				09F493141EB25E230087E31B /* Assets.xcassets in Resources */,
 				09F493121EB25E230087E31B /* Main.storyboard in Resources */,
+				091E53FC1ECAE2A10054D446 /* MQGameBGM.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DDE5A81EC2FA95005509F4 /* AboutViewController.swift in Sources */,
+				095874E11ECD2124004316EF /* MQHelpViewController.swift in Sources */,
+				091E24711EC9E1BD008E7697 /* QMOptionViewController.swift in Sources */,
 				09F4930F1EB25E230087E31B /* ViewController.swift in Sources */,
+				0915438B1ECC20400011EC26 /* MQScoreViewController.swift in Sources */,
+				09DDE5AA1EC32592005509F4 /* QuickMathsViewController.swift in Sources */,
+				091E53FA1ECAD4710054D446 /* MQGameViewController.swift in Sources */,
 				09F4930D1EB25E230087E31B /* AppDelegate.swift in Sources */,
+				091E24731EC9F267008E7697 /* QMHelpViewController.swift in Sources */,
+				09DDE5AC1EC342CE005509F4 /* QMGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +341,7 @@
 				09F4931D1EB25E230087E31B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
